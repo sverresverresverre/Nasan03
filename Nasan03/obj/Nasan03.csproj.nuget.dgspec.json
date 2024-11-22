@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj": {}
+    "c:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj": {
+    "c:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj",
+        "projectUniqueName": "c:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj",
         "projectName": "Nasan03",
-        "projectPath": "C:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj",
+        "projectPath": "c:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\Nasan03.csproj",
         "packagesPath": "C:\\Users\\sverre.kallberg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\obj\\",
+        "outputPath": "c:\\Users\\sverre.kallberg\\Documents\\Prog2\\Nasan03\\Nasan03\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
