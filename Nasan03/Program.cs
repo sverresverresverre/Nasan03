@@ -30,6 +30,11 @@ static void RightTriangleArea(float a, float b)
 
 RightTriangleArea(4, 3);
 
+static void RightCircleArea(float a)
+{
+    Console.WriteLine($"{a * a * 3.14}");
+}
 
+RightCircleArea(3);
 
 Console.ReadLine();
