@@ -22,19 +22,52 @@
 
 // Multi(3.74f, 87.2f);
 
-static void RightTriangleArea(float a, float b)
+// static float RightTriangleArea(float a, float b)
+// {
+//     float result = (a * b)/2;
+//     Console.WriteLine($"{result}");
+//     return result;
+// }
+
+// RightTriangleArea(4, 3);
+
+// static double RightCircleArea(double a)
+// {
+//     double result = a * a * 3.14;
+//     Console.WriteLine($"{result}");
+//     return result;
+// }
+
+static double GetNumberInput()
 {
-    float square = a * b;
-    Console.WriteLine($"{square / 2}");
+    while (true)
+    {
+        Console.WriteLine("Skriv ett tal");
+        string tal = Console.ReadLine();
+        double f;
+        bool lyckad = double.TryParse(tal, out f);
+
+        if (lyckad == true)
+        {
+            Console.WriteLine("Bra jobbat gullunge");
+            return f;
+        }
+        else if (lyckad == false)
+        {
+            Console.WriteLine("Nej du har fel det är inget tal");
+        }
+    }
 }
 
-RightTriangleArea(4, 3);
+double r = GetNumberInput();
 
-static void RightCircleArea(float a)
+static double RightCircleArea(double a)
 {
-    Console.WriteLine($"{a * a * 3.14}");
+    double result = a * a * 3.14;
+    Console.WriteLine($"{result}");
+    return result;
 }
 
-RightCircleArea(3);
+RightCircleArea(r);
 
 Console.ReadLine();
